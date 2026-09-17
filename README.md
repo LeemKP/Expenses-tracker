@@ -1,7 +1,7 @@
 # Personal-expenses-tracker
 A lightweight Command Line Interface (CLI) expense tracker written in Python. All financial records, category breakdowns and monthly histories persist locally on your machine in a private `.json` file.
 
-For your information, this python script is just a personal mini project done by the author. It is not recognized by any school, university or any government sectors.
+For your information, this Python script is just a personal mini-project created by the author. It is not recognized by any school, university or government sector.
 
 ---
 
