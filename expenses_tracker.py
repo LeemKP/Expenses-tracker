@@ -178,7 +178,7 @@ def option_3():
             sign = "Warning! Near to limit!"
         else:
             sign = "Under budget."
-        print(f"Usage (%)      : {round(percentage)}%")
+        print(f"Usage (%)      : {100-round(percentage)}%")
         print(f"Status         : {sign}")
         print(f"==========================================================================================")
 
@@ -250,7 +250,7 @@ def option_5():
             print(f"Monthly budget : ${month_budget:.2f}")
             print(f"Total spending : ${total_spent:.2f}")
             print(f"Remain balance : ${remain_balance:.2f}")
-            print(f"Usage (%)      : {round(percentage)}%")
+            print(f"Usage (%)      : {100-round(percentage)}%")
             print(f"Status         : {sign}")
             print(f"==========================================================================================")
     else:
