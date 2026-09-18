@@ -69,7 +69,6 @@ def save_data():
     with open(DATA_FILE,"w") as f:
         json.dump(saved_data,f,indent = 4)
     print(f"\nSuccessfully saved data!")
-    print(f"Thank you for using this program")
 
 # option 1 - add expense
 def option_1():
@@ -272,6 +271,7 @@ def main():
         choice = input(f"Please select from (1-6): ")
         if choice == "6":
             save_data()
+             print(f"Thank you for using this program")
             break
         elif choice == "1":
             print()
